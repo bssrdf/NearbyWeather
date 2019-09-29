@@ -476,12 +476,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Erik Maximilian Martens";
 				TargetAttributes = {
 					F204B7761DF2EFA3000F4371 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = VDPU24L36V;
+						DevelopmentTeam = Z2G57F5DSY;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -566,10 +566,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NearbyWeather/Pods-NearbyWeather-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyWeather/Pods-NearbyWeather-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APTimeZones/APTimeZones.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
@@ -579,8 +577,6 @@
 				"${BUILT_PRODUCTS_DIR}/TextFieldCounter/TextFieldCounter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APTimeZones.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
@@ -592,7 +588,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyWeather/Pods-NearbyWeather-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearbyWeather/Pods-NearbyWeather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3D4ED3D810C7C2A86400E325 /* [CP] Check Pods Manifest.lock */ = {
@@ -622,10 +618,8 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NearbyWeatherTests/Pods-NearbyWeatherTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NearbyWeatherTests/Pods-NearbyWeatherTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APTimeZones/APTimeZones.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
@@ -635,8 +629,6 @@
 				"${BUILT_PRODUCTS_DIR}/TextFieldCounter/TextFieldCounter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APTimeZones.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
@@ -648,7 +640,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NearbyWeatherTests/Pods-NearbyWeatherTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearbyWeatherTests/Pods-NearbyWeatherTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C5C173BE01A5334BF3F0BC97 /* [CP] Check Pods Manifest.lock */ = {
@@ -865,7 +857,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -920,8 +912,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -935,11 +928,11 @@
 			baseConfigurationReference = 944B1208C9C347629E211098 /* Pods-NearbyWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VDPU24L36V;
+				DEVELOPMENT_TEAM = Z2G57F5DSY;
 				INFOPLIST_FILE = NearbyWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = cartesian.FacebookMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -950,11 +943,11 @@
 			baseConfigurationReference = C1E9AF274C76FCBA0423A50E /* Pods-NearbyWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VDPU24L36V;
+				DEVELOPMENT_TEAM = Z2G57F5DSY;
 				INFOPLIST_FILE = NearbyWeather/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.erikmaximilianmartens.NearbyWeather;
+				PRODUCT_BUNDLE_IDENTIFIER = cartesian.FacebookMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

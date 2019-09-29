@@ -21,7 +21,7 @@ DEPENDENCIES:
   - TextFieldCounter (~> 1.0.2)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Alamofire
     - FMDB
     - PKHUD
@@ -53,4 +53,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 7b8c6785c253a747c3b9a7afe7774a2bb2d9dca7
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.1
